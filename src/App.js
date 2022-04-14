@@ -1,11 +1,18 @@
+import React, { Component } from 'react';
 import './App.css';
+import Footer from './Layout/footer';
 
-function App() {
-  return (
-    <div className="App">
-      22
-    </div>
-  );
+class App extends Component {
+  
+  render() {
+
+    return (
+      <div className="content">
+        22
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
