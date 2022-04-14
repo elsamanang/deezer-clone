@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Footer from './Layout/footer';
+import Navbar from './Layout/navbar';
+import Sidebar from './Layout/sidebar';
 
 class App extends Component {
   
@@ -8,7 +10,15 @@ class App extends Component {
 
     return (
       <div className="content">
-        22
+        <div className='row'>
+          <div className='col-2 sidebar'>
+            <Sidebar />
+          </div>
+          <div className='col-10 body'>
+            <Navbar />
+            body
+          </div>
+        </div>
         <Footer />
       </div>
     );

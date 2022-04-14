@@ -14,7 +14,7 @@ export default function Footer() {
                 </div>
                 <div className="row">
                     <audio
-                        controls autoplay muted
+                        controls autoPlay muted
                         src="assets/audio/test.mp3">
                     </audio>
                 </div>
