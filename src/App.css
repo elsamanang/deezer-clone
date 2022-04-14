@@ -10,15 +10,13 @@
     padding: 0px;
 }
 
-.content .row .body{
-    padding: 0px;
-}
-
 /* Navbar */
 .navbar {
     width: 100%;
     border-bottom: solid 1px lavender;
 }
+
+/* End Navbar */
 
 /* Sidebar */
 .sidebar {
@@ -26,6 +24,44 @@
     height: 87vh;
     border-right: solid 1px lavender;
 }
+
+/* End Sidebar */
+
+/* Page content */
+
+.content .row .body{
+    padding: 0px;
+}
+/* Navbar  */
+.navbar {
+    position: fixed;
+    height: 60px;
+}
+.navbar .search{
+    font-weight: 5;
+}
+.navbar .search input{
+    border: none;
+    width: 50%;
+}
+
+.navbar .col-2 span{
+    width: 30px;
+    padding: 10px;
+}
+
+.navbar .col-2 .user{
+    background-color:aliceblue;
+    border: none;
+    border-radius: 50%;
+    font-size: 11px;
+}
+
+.navbar .search input:focus {
+    outline: 1px solid transparent;
+}
+
+/* End Page content */
 
 /* Footer  */
 .footer {
@@ -55,3 +91,5 @@
     border: none;
     border-radius: 50%;
 }
+
+/* End Footer  */
