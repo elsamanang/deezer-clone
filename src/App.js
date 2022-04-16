@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className="content">
         <div className='row'>
-          <div className='col-2 sidebar'>
+          <div className='col-md-2 sidebar'>
             <Sidebar />
           </div>
-          <div className='col-10 body'>
+          <div className='col-md-10 body'>
             <Navbar />
             body
           </div>
