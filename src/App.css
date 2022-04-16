@@ -67,7 +67,7 @@ body, .app {
     
 }
 
-#nav-2 .nav-item .nav-item:active {
+#nav-2 .flex-column.nav-item:active {
     border: none;
 }
 
