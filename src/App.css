@@ -130,6 +130,19 @@ body, .app {
     outline: 1px solid transparent;
 }
 
+/* flow */
+
+#flowItem .flow-img {
+    background-color: #ededed;
+    background-image: url(../public/assets/img/flow/s1.png);
+}
+
+#flowItem .flow-img:hover {
+    background-color: #ff7070;
+    background-image: url(../public/assets/img/flow/play.png);
+    background-size: 45px;
+}
+
 /* End Page content */
 
 /* Footer  */
