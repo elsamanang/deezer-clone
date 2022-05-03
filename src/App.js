@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Flow from './components/flow';
+import PourVous from './components/pour-vous';
 import Footer from './Layout/footer';
 import Navbar from './Layout/navbar';
 import Sidebar from './Layout/sidebar';
@@ -19,6 +20,7 @@ class App extends Component {
             <Navbar />
             <div className='container'>
               <Flow />
+              <PourVous />
               body
             </div>
           </div>
