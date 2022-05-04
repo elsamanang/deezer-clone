@@ -17,7 +17,7 @@ export default function RecentItem () {
                     </div>
                 </div>
             </div>
-            <p className="text-justify my-1">titre</p>
+            <p className="text-justify my-1 w-56">Avec Adele, Shawn Mendes, Joel Adams, Ayra Starr</p>
         </div>
     )
 }
