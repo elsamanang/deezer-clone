@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import RecentItem from "../tools/recent-item";
 
 export default class PourVous extends Component {
 
@@ -8,8 +9,11 @@ export default class PourVous extends Component {
                 <div className="grid">
                     <h3>Pour vous</h3>
                 </div>
-                <div className="grid grid-cols-7 gap-8">
-                    
+                <div className="grid grid-cols-4 gap-8 my-2">
+                    <RecentItem />
+                    <RecentItem />
+                    <RecentItem />
+                    <RecentItem />
                 </div>
             </div>
         )

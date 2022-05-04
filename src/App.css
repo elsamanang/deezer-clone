@@ -143,6 +143,21 @@ body, .app {
     background-size: 45px;
 }
 
+/* Recent*/
+
+#RecentItem .play-btn {
+    width: initial;
+    position: absolute;
+    align-self: center;
+    width: 56px;
+    height: 56px;
+}
+
+#RecentItem .play-btn:hover {
+    width: 62px;
+    height: 62px;
+}
+
 /* End Page content */
 
 /* Footer  */
