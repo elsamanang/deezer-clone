@@ -7,7 +7,7 @@ export default class Flow extends Component {
         return (
             <div className="row m-2">
                 <div className="grid">
-                    <h3>Flow, la bande-son de vos émotions</h3>
+                    <h4>Flow, la bande-son de vos émotions</h4>
                     <p>Un mix infini et personnalisé avec vos favoris et de belles découvertes</p>
                 </div>
                 <div className="grid grid-cols-7 gap-8">
