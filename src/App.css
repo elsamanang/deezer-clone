@@ -17,7 +17,12 @@ body, .app {
 /* Navbar */
 .navbar {
     width: 100%;
+}
+.navbar .container {
+    width: 100%;
+    margin-left: 10px;
     border-bottom: solid 1px lavender;
+    
 }
 
 /* End Navbar */
@@ -26,12 +31,13 @@ body, .app {
 .sidebar {
     width: 100%;
     height: 87vh;
-    border-right: solid 1px lavender;
 }
 
 .sidebar .container {
     width: inherit;
+    height: 87vh;
     position: fixed;
+    border-right: solid 1px lavender;
     padding: 1% 0 0 0;
 }
 
@@ -143,8 +149,7 @@ body, .app {
     background-size: 45px;
 }
 
-/* Recent*/
-
+/* Pour vous*/
 #RecentItem .play-btn {
     width: initial;
     position: absolute;
@@ -158,12 +163,24 @@ body, .app {
     height: 62px;
 }
 
+/* Recent */
+#RecentPlayItem .absolute img {
+    width: 32px;
+    height: 32px;
+}
+
+#RecentPlayItem .absolute img:hover {
+    width: 36px;
+    height: 36px;
+    background: none;
+}
+
 /* End Page content */
 
 /* Footer  */
 .footer {
     display: block;
-    position: fixed;
+    position: absolute;
     margin-bottom: 0px;
     width: 100%;
     height: 80px;
@@ -171,7 +188,6 @@ body, .app {
     padding: 1%;
     
 }
-
 
 .footer .play-block {
     font-size: 1.2em;
