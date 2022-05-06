@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import CategoryItem from "../tools/category-item";
 
 export default class Category extends Component {
 
@@ -6,14 +7,16 @@ export default class Category extends Component {
         return (
             <div className="row m-2">
                 <div className="grid">
-                    <h4 className="flex">
-                        <span>Category</span>
-                        <span className="place-self-end">
-                            <img src="assets/img/flow/right.png" className="w-4"/>
-                        </span>
+                    <h4 className="link_title">
+                        Category
+                        <span className="i mx-1"><i class="fa-solid fa-angle-right"></i></span>
                     </h4>
                 </div>
                 <div className="grid grid-cols-4 gap-8 my-2">
+                    <CategoryItem />
+                    <CategoryItem />
+                    <CategoryItem />
+                    <CategoryItem />
                 </div>
             </div>
         )
