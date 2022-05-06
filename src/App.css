@@ -8,6 +8,20 @@ body, .app {
     padding: 0px;
 }
 
+.grid h4 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.link_title:hover {
+    color: #f78181;
+    white-space: 10px;
+}
+
+.link_title .i {
+    font-size: 14px;
+}
+
 .content .row{
     width: 100%;
     position: relative;
@@ -170,6 +184,36 @@ body, .app {
 }
 
 #RecentPlayItem .absolute img:hover {
+    width: 36px;
+    height: 36px;
+    background: none;
+}
+
+/* Play 100% */
+#PlayCentItem .self-end img {
+    width: 32px;
+    height: 32px;
+}
+
+#PlayCentItem .self-end img:hover {
+    width: 36px;
+    height: 36px;
+    background: none;
+}
+
+#PlayCentItem .cent img {
+    height: 110px;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+/* Artist */
+#ArtistItem .absolute img {
+    width: 32px;
+    height: 32px;
+}
+
+#ArtistItem .absolute img:hover {
     width: 36px;
     height: 36px;
     background: none;
