@@ -1,13 +1,13 @@
 import React, {Component} from "react";
-import Artist from './components/artist';
-import Category from './components/category';
-import Flow from './components/flow';
-import News from './components/news';
-import Playlist from './components/playlist';
-import PlaylistCent from './components/playlist-cent';
-import PourVous from './components/pour-vous';
-import Recent from './components/recent';
-import Week from './components/week';
+import Flow from './../components/flow';
+import PourVous from './../components/pour-vous';
+import Recent from './../components/recent';
+import Playlist from './../components/playlist';
+import Category from './../components/category';
+import News from './../components/news';
+import Artist from './../components/artist';
+import Week from './../components/week';
+import PlaylistCent from './../components/playlist-cent';
 
 export default class Home extends Component {
 
@@ -19,7 +19,7 @@ export default class Home extends Component {
               <Recent />
               <Playlist />
               <Category />
-              <News />
+              <News titre={"Nouveautés pour vous"}/>
               <Artist />
               <Week />
               <PlaylistCent />
