@@ -5,6 +5,7 @@ import Footer from './Layout/footer';
 import Navbar from './Layout/navbar';
 import Sidebar from './Layout/sidebar';
 import Home from './pages/home';
+import Poadcast from './pages/poadcast';
 
 class App extends Component {
   
@@ -21,6 +22,7 @@ class App extends Component {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/home' element={<Home />} />
+              <Route path='/poadcast' element={<Poadcast />} />
             </Routes>
           </div>
         </div>
