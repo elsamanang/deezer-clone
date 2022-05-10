@@ -11,6 +11,11 @@ body, .app {
 .grid h4 {
     font-weight: 700;
     font-size: 22px;
+} 
+
+.grid button {
+    font-weight: 700;
+    font-size: 12px;
 }
 
 .link_title:hover {
@@ -82,8 +87,12 @@ body, .app {
     padding-left: 25%;
 }
 
+.sidebar .container .flex-column .nav-item {
+    border-left: solid 4px white;
+}
+
 .sidebar .container .flex-column .nav-item:active {
-    border-left: solid 3px #f78181;
+    border-left: solid 4px #f78181;
     
 }
 

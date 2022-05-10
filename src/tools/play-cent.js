@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function PlayCentItem () {
+export default function PlayCentItem() {
     return (
         <div id="PlayCentItem">
             <div className="grid h-56 w-56 shadow-md recent rounded-md overflow-hidden hover:opacity-80">

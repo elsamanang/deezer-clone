@@ -1,22 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
 
     return(
         <div className="container">
-            <img src="assets/img/deezer.png"/>
+            <Link to={'/'}><img src="assets/img/deezer.png"/></Link>
             <ul className="nav flex-column">
                 <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <Link to={'/'} className="nav-link">
                         <i className="fa-solid fa-music"></i>
                         <span className="mx-3">Musique</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" to={'/poadcast'}>
                         <i className="fa-solid fa-microphone-lines"></i>
                         <span className="mx-3">Podcasts</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">

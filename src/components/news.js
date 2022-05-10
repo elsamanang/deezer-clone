@@ -2,13 +2,16 @@ import React, {Component} from "react";
 import RecentPlayItem from "../tools/recent-play";
 
 export default class News extends Component {
-
+    state = {
+        titre: this.props.titre
+    }
     render() {
+        const {titre} = this.state;
         return (
             <div className="row m-2">
                 <div className="grid">
                     <h4 className="link_title">
-                    Nouveautés pour vous
+                        {titre}
                         <span className="i mx-1"><i class="fa-solid fa-angle-right"></i></span>
                     </h4>
                 </div>
